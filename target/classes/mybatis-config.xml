@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<settings>
+	<setting name="logImpl" value="log4j" />
+</settings>
+
+<typeAliases>
+	<!-- <typeAlias type="com.zxj.pojo.Product" alias="abc"/>  -->	
+
+    <typeAlias type="com.pojo.Employee" alias="Employee"/>
+	<typeAlias type="com.pojo.Department" alias="Department"/>
+
+</typeAliases>
+
+<!--映射文件的设置 -->
+<mappers>
+	<mapper resource="com/mybatis/EmpMapper.xml"/>
+	<mapper resource="com/mybatis/DepMapper.xml"/>
+</mappers>
+
+</configuration>

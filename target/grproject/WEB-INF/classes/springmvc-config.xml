@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+						http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/context
+						http://www.springframework.org/schema/context/spring-context.xsd
+						http://www.springframework.org/schema/tx
+						http://www.springframework.org/schema/tx/spring-tx.xsd
+						http://www.springframework.org/schema/mvc
+						http://www.springframework.org/schema/mvc/spring-mvc.xsd
+						http://www.springframework.org/schema/aop
+						http://www.springframework.org/schema/aop/spring-aop.xsd">  
+    	
+  <!-- 第一种 映射和Bean的定义合并，bean的name就是路径  从而找到controller，这也是默认方式，可以不用配置-->
+  <!-- <bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/> -->
+	<context:component-scan base-package="com.controller"></context:component-scan>
+	<context:component-scan base-package="com.dao"></context:component-scan>
+	<context:component-scan base-package="com.service"></context:component-scan>
+	<!-- 配置转换器 -->
+	<bean id="conversionService" class="org.springframework.format.support.FormattingConversionServiceFactoryBean"></bean>
+    <mvc:annotation-driven conversion-service="conversionService"/>
+    
+    <!-- 配置错误消息文件 x
+    <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+         <property name="basename" value="classpath:errorMessages"></property>
+         <property name="defaultEncoding" value="UTF-8"></property>
+    </bean>
+-->
+    
+    
+  <!--视图解析器  -->	
+   <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+              id="internalResourceViewResolver">
+       <property name="prefix" value="/WEB-INF/" />
+       <property name="suffix" value=".jsp" />
+  </bean>
+ 	 
+</beans>

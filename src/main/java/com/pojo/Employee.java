@@ -1,0 +1,68 @@
+package com.pojo;
+
+public class Employee {
+   private int id;
+   private String name;
+   private String sex;
+   private int age;
+   private Department dep;
+
+    public Employee(int id, String name, String sex, int age, Department dep) {
+        this.id = id;
+        this.name = name;
+        this.sex = sex;
+        this.age = age;
+        this.dep = dep;
+    }
+
+    public Employee() {
+        super();
+    }
+
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public Department getDep() {
+        return dep;
+    }
+
+    public void setDep(Department dep) {
+        this.dep = dep;
+    }
+
+
+
+}
+
+
+

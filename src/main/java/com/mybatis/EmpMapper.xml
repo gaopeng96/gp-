@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.EmployeeDao">
+
+    <!-- 查询所有用户-->
+    <resultMap id="selectMap" type="Employee">
+        <id property="id" column="id"></id>
+        <result property="name" column="name"></result>
+        <result property="sex" column="sex"></result>
+        <result property="age" column="age"></result>
+        <collection property="dep" ofType="Department">
+            <id property="id" column="id"/>
+            <result property="name" column="name"/>
+        </collection>
+
+    </resultMap>
+    <select id="selectAllEmp"  resultMap="selectMap">
+		select e.id,e.name,e.sex,e.age,d.* from employee e,department d where e.d_id=d.id group by e.id
+	</select>
+
+    <!--根据ID查询用户-->
+    <resultMap id="selectMap2" type="Employee">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="sex" column="sex"/>
+        <result property="age" column="age"/>
+        <collection property="dep" ofType="Department">
+            <id property="id" column="id"/>
+            <result property="name" column="name"/>
+        </collection>
+    </resultMap>
+    <select id="selectEmployeeByID" resultMap="selectMap2">
+		select e.*,d.* from employee e,department d where e.d_id=d.id and e.id=#{id}
+	</select>
+
+    <!-- 增加员工-->
+    <insert id="insertEmp" parameterType="Employee">
+        insert into employee(id,name,sex,age,d_id) values (null,#{name},#{sex},#{age},#{dep.id})
+    </insert>
+
+    <!-- 删除员工-->
+    <delete id="deleteEmp" parameterType="Integer">
+        delete from employee where id=#{id};
+    </delete>
+
+    <!--修改员工-->
+    <update id="updateEmp" parameterType="Employee">
+       update employee set name=#{name},sex=#{sex},age=#{age},d_id=#{dep.id} where id=#{id}
+    </update>
+
+</mapper>
