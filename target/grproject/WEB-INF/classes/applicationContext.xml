@@ -19,7 +19,7 @@
 	<!--配置dbcp数据源  -->
 	<bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
-		<property name="url" value="jdbc:mysql://localhost:3306/test?characterEncoding=utf8"></property>
+		<property name="url" value="jdbc:mysql://localhost:3306/graduation?characterEncoding=utf8"></property>
 		<property name="username" value="root"></property>
 		<property name="password" value="aaa0129."></property>
 		<property name="maxTotal" value="30"></property>
@@ -43,5 +43,21 @@
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
 		<property name="basePackage" value="com.dao"></property>
 		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
+	</bean>
+
+	<!--邮件配置-->
+	<context:property-placeholder location="classpath:mail.properties" ignore-unresolvable="true"></context:property-placeholder>
+	<!--配置邮件接口-->
+	<bean id="javaMailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+	<property name="host" value="${mail.smtp.host}"/>
+	<property name="username" value="${mail.smtp.username}"/>
+	<property name="password" value="${mail.smtp.password}"/>
+	<property name="defaultEncoding" value="${mail.smtp.defaultEncoding}"/>
+	<property name="javaMailProperties">
+		<props>
+			<prop key="mail.smtp.auth">${mail.smtp.auth}</prop>
+			<prop key="mail.smtp.timeout">${mail.smtp.timeout}</prop>
+		</props>
+	</property>
 	</bean>
  </beans>

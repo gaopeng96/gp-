@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.AdminDao">
+    <!--登录查询-->
+    <select id="login" parameterType="Admin" resultType="Admin">
+        select * from admin where ano=#{ano} and apwd=#{apwd}
+    </select>
+
+    <!--查询各数量-->
+    <select id="selectNoticeNum" parameterType="Integer" resultType="Integer">
+        select count(*) from notice
+    </select>
+    <select id="selectTeaNum" parameterType="Integer" resultType="Integer">
+        select count(*) from teacher
+    </select>
+    <select id="selectClassNum" parameterType="Integer" resultType="Integer">
+        select count(*) from class
+    </select>
+    <select id="selectStuNum1" parameterType="Integer" resultType="Integer">
+        select count(*) from student
+    </select>
+    <!--插入公告检测-->
+    <select id="insertCheck" parameterType="Integer" resultType="Integer">
+        select count(*) from notice where nno=#{nno}
+    </select>
+
+    <!--插入教师检测-->
+    <select id="insertTeaCheck" parameterType="Integer" resultType="Integer">
+        select count(*) from teacher where tno=#{tno}
+    </select>
+
+    <!--插入学生检测-->
+    <select id="insertStuCheck" parameterType="Integer" resultType="Integer">
+        select count(*) from student where sno=#{sno}
+    </select>
+
+    <!--插入作业检测-->
+    <select id="insertHworkCheck" parameterType="Integer" resultType="Integer">
+        select count(*) from hwork where hno=#{hno}
+    </select>
+
+    <!--插入选择题检测-->
+    <select id="insertSHworkCheck" parameterType="Integer" resultType="Integer">
+        select count(*) from shwork where hno=#{hno}
+    </select>
+
+    <!--插入班级检测-->
+    <select id="insertClassCheck" parameterType="Integer" resultType="Integer">
+        select count(*) from class where cno=#{cno}
+    </select>
+
+    <!--查看公告-->
+    <resultMap id="selectMapNotice" type="Notice">
+        <id property="nno" column="nno"></id>
+        <result property="ncontent" column="ncontent"></result>
+        <result property="ntime" column="ntime"></result>
+    </resultMap>
+    <select id="selectNotice"  resultMap="selectMapNotice">
+		select * from notice order by ntime desc
+	</select>
+
+    <!--根据nno查询公告-->
+    <resultMap id="selectMapNo" type="Notice">
+        <id property="nno" column="nno"></id>
+        <result property="ncontent" column="ncontent"></result>
+        <result property="ntime" column="ntime"></result>
+    </resultMap>
+    <select id="selectNoticeByNo" resultMap="selectMapNo">
+		select *from notice where nno = #{arg0}
+	</select>
+
+    <!--查看最新2公告-->
+    <resultMap id="selectMapNew" type="Notice">
+        <id property="nno" column="nno"></id>
+        <result property="ncontent" column="ncontent"></result>
+        <result property="ntime" column="ntime"></result>
+    </resultMap>
+    <select id="selectNoticeCon" resultMap="selectMapNew">
+		select *from notice group by ntime desc limit 1
+	</select>
+
+    <!--增加公告-->
+    <insert id="insertNotice" parameterType="Notice">
+    insert into notice(nno,ncontent,ntime) values (#{nno},#{ncontent},null)
+    </insert>
+
+    <!--修改公告-->
+    <update id="updateNotice" parameterType="Notice">
+        update notice set ncontent=#{ncontent} where nno=#{nno}
+    </update>
+
+    <!--删除公告-->
+    <delete id="deleteNotice" parameterType="Integer">
+        delete from notice where nno=#{nno}
+    </delete>
+
+    <!--***************班级管理*****************-->
+    <!--查看所有班级-->
+    <resultMap id="selectMapClass" type="Class">
+        <id property="cno" column="cno"></id>
+        <result property="cname" column="cname"></result>
+        <result property="account" column="account"></result>
+    </resultMap>
+    <select id="selectAllClass" resultMap="selectMapClass">
+		select *from class
+	</select>
+
+    <!--查看班级人数-->
+    <resultMap id="selectMapNum" type="Class">
+        <id property="cno" column="cno"></id>
+        <result property="cname" column="cname"></result>
+        <result property="account" column="account"></result>
+    </resultMap>
+    <select id="selectStuNum" resultMap="selectMapNum">
+		select count(*) as account,c.*from class c,student s where s.cno=c.cno group by c.cno
+	</select>
+
+    <!--根据cno查看班级-->
+    <resultMap id="selectMapClass1" type="Class">
+        <id property="cno" column="cno"></id>
+        <result property="cname" column="cname"></result>
+    </resultMap>
+    <select id="selectClassByNo" resultMap="selectMapClass1">
+		select *from class where cno=#{cno}
+	</select>
+
+    <!--增加班级-->
+    <insert id="insertClass" parameterType="Class">
+    insert into class(cno,cname) values (#{cno},#{cname})
+    </insert>
+
+    <!--修改班级-->
+    <update id="updateClass" parameterType="Class">
+        update class set cname=#{cname}
+        where cno=#{cno}
+    </update>
+    <!--************查看老师操作************-->
+    <!-- 查看所有老师-->
+    <resultMap id="selectMap" type="Teacher">
+        <id property="tno" column="tno"></id>
+        <result property="tname" column="tname"></result>
+        <result property="tsex" column="tsex"></result>
+        <result property="tage" column="tage"></result>
+        <result property="cno" column="cno"></result>
+    </resultMap>
+    <select id="selectTeacher"  resultMap="selectMap">
+		select *from teacher
+	</select>
+
+    <!--根据tno查看老师-->
+    <resultMap id="selectMapByTno" type="Teacher">
+        <id property="tno" column="tno"></id>
+        <result property="tname" column="tname"></result>
+        <result property="tsex" column="tsex"></result>
+        <result property="tage" column="tage"></result>
+        <result property="cno" column="cno"></result>
+    </resultMap>
+    <select id="selectTeacherByTno"  resultMap="selectMapByTno">
+		select *from teacher where tno=#{arg0}
+	</select>
+
+    <!--增加老师-->
+    <insert id="insertTeacher" parameterType="Teacher">
+    insert into teacher(tno,tpwd,tname,tsex,tage,cno)
+    values (#{tno},#{tpwd},#{tname},#{tsex},#{tage},#{clas.cno})
+    </insert>
+
+    <!--修改老师-->
+    <update id="updateTeacher" parameterType="Teacher">
+        update teacher set tpwd=#{tpwd},tname=#{tname},tsex=#{tsex},tage=#{tage},cno=#{clas.cno}
+        where tno=#{tno}
+    </update>
+
+    <!--删除老师-->
+    <delete id="deleteTeacher" parameterType="Integer">
+        delete from teacher where tno=#{tno}
+    </delete>
+
+    <!--******************学生操作********************-->
+
+    <!-- 查看所有学生-->
+    <resultMap id="selectMapStu" type="Student">
+        <id property="sno" column="sno"></id>
+        <result property="sname" column="sname"></result>
+        <result property="ssex" column="ssex"></result>
+        <result property="sage" column="sage"></result>
+        <result property="cno" column="cno"></result>
+    </resultMap>
+    <select id="selectStudent"  resultMap="selectMapStu">
+		select * from student
+	</select>
+
+    <!--根据sno查看学生-->
+    <resultMap id="selectMapStuNo" type="Student">
+        <id property="sno" column="sno"></id>
+        <result property="sname" column="sname"></result>
+        <result property="ssex" column="ssex"></result>
+        <result property="sage" column="sage"></result>
+        <result property="cno" column="cno"></result>
+    </resultMap>
+    <select id="selectStudentByNo"  resultMap="selectMapStuNo">
+		select * from student where sno=#{arg0}
+	</select>
+
+    <!--增加学生-->
+    <insert id="insertStudent" parameterType="Student">
+        insert into student(sno,spwd,sname,ssex,sage,cno)
+    values (#{sno},#{spwd},#{sname},#{ssex},#{sage},#{clas.cno})
+    </insert>
+
+    <!--修改学生-->
+    <update id="updateStudent" parameterType="Student">
+      update student set spwd=#{spwd},sname=#{sname},ssex=#{ssex},sage=#{sage},cno=#{clas.cno}
+        where sno=#{sno}
+    </update>
+
+</mapper>

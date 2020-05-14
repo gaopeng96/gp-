@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.TeacherDao">
+
+    <!--教师登录查询-->
+    <select id="login" parameterType="Teacher" resultType="Teacher">
+        select * from teacher where tno=#{tno} and tpwd=#{tpwd}
+    </select>
+
+    <!--查看个人信息-->
+    <select id="infm" parameterType="Teacher" resultType="Teacher">
+        select *from teacher where tno=#{tno}
+    </select>
+
+    <!--查看已发布作业-->
+    <resultMap id="selectMap2" type="Thwork">
+        <id property="hno" column="hno"></id>
+        <result property="tno" column="tno"></result>
+        <result property="cno" column="cno"></result>
+        <result property="hcontent" column="hcontent"></result>
+        <result property="hname" column="hname"></result>
+        <result property="htime" column="htime"></result>
+    </resultMap>
+    <select id="selectTeaHwork"  resultMap="selectMap2">
+		select * from hwork where tno = #{tno}
+	</select>
+
+    <!--查看已发布选择题记录-->
+    <resultMap id="selectMapSelect" type="Shwork">
+        <id property="hno" column="hno"></id>
+        <result property="tno" column="tno"></result>
+        <result property="cno" column="cno"></result>
+        <result property="hcontent" column="hcontent"></result>
+        <result property="selectA" column="selectA"></result>
+        <result property="selectB" column="selectB"></result>
+        <result property="selectC" column="selectC"></result>
+        <result property="selectD" column="selectD"></result>
+        <result property="hname" column="hname"></result>
+        <result property="answer" column="answer"></result>
+        <result property="htime" column="htime"></result>
+        <result property="endTime" column="endTime"></result>
+    </resultMap>
+    <select id="selectTeaShwork"  resultMap="selectMapSelect">
+		select * from shwork where tno = #{tno}
+	</select>
+
+
+    <!-- 查看未批改作业-->
+    <resultMap id="selectMap" type="Hwork">
+        <id property="hno" column="hno"></id>
+        <result property="sno" column="sno"></result>
+        <result property="tno" column="tno"></result>
+        <result property="cno" column="cno"></result>
+        <result property="hname" column="hname"></result>
+        <result property="hcontent" column="hcontent"></result>
+        <result property="shcontent" column="shcontent"></result>
+        <result property="htime" column="htime"></result>
+        <result property="grade" column="grade"></result>
+    </resultMap>
+    <select id="selectNewHwork"  resultMap="selectMap">
+		select sth.hno,sth.sno,sth.cno,h.tno,h.hname,h.hcontent,sth.shcontent,sth.grade
+		from stu_hwork sth, hwork h
+		where sth.hno=h.hno and sth.grade is null and sth.shcontent !='null' and h.tno = #{tno} order by h.htime desc
+	</select>
+
+    <!-- 查看未提交作业学生-->
+    <resultMap id="selectMap5" type="Hwork">
+        <id property="hno" column="hno"></id>
+        <result property="sno" column="sno"></result>
+        <result property="tno" column="tno"></result>
+        <result property="cno" column="cno"></result>
+        <result property="hname" column="hname"></result>
+        <result property="hcontent" column="hcontent"></result>
+        <result property="shcontent" column="shcontent"></result>
+        <result property="htime" column="htime"></result>
+        <result property="grade" column="grade"></result>
+        <result property="email" column="email"></result>
+    </resultMap>
+    <select id="selectNotHwork"  resultMap="selectMap5">
+		select sth.hno,sth.sno,sth.cno,h.tno,h.hname,h.hcontent,sth.shcontent,sth.grade
+		from stu_hwork sth, hwork h
+		where sth.hno=h.hno and sth.shcontent is null and h.tno = #{tno} order by h.htime desc
+	</select>
+
+    <!--查看未提交选择题学生-->
+    <resultMap id="selectMapSelect1" type="Hworkss">
+        <id property="hno" column="hno"></id>
+        <result property="sno" column="sno"></result>
+        <result property="tno" column="tno"></result>
+        <result property="cno" column="cno"></result>
+        <result property="hname" column="hname"></result>
+        <result property="hcontent" column="hcontent"></result>
+        <result property="shcontent" column="shcontent"></result>
+        <result property="htime" column="htime"></result>
+        <result property="endTime" column="endTime"></result>
+        <result property="grade" column="grade"></result>
+    </resultMap>
+    <select id="selectNotSHwork"  resultMap="selectMapSelect1">
+		select sth.hno,sth.sno,sth.cno,h.tno,h.hname,h.hcontent,h.htime,h.endTime,sth.shcontent,sth.grade
+		from stu_shwork sth, shwork h
+		where sth.hno=h.hno and sth.shcontent is null and h.tno = #{tno} order by h.htime desc
+	</select>
+
+
+
+     <!--查看学生作业成绩-->
+    <resultMap id="selectMap4" type="Hwork">
+        <id property="hno" column="hno"></id>
+        <result property="sno" column="sno"></result>
+        <result property="cno" column="cno"></result>
+        <result property="tno" column="tno"></result>
+        <result property="hname" column="hname"></result>
+        <result property="hcontent" column="hcontent"></result>
+        <result property="shcontent" column="shcontent"></result>
+        <result property="grade" column="grade"></result>
+    </resultMap>
+    <select id="showGrade"  resultMap="selectMap4">
+		select sth.hno,sth.sno,sth.cno,h.tno,h.hname,h.hcontent,sth.shcontent,sth.grade
+        from stu_hwork sth, hwork h
+        where sth.hno=h.hno and sth.grade >='0'and h.tno=#{arg0} and sth.hno=#{arg1}
+        order by sth.grade desc
+	</select>
+
+    <!--查看学生选择题成绩-->
+    <resultMap id="selectMapGrade" type="Hworkss">
+        <id property="hno" column="hno"></id>
+        <result property="sno" column="sno"></result>
+        <result property="cno" column="cno"></result>
+        <result property="tno" column="tno"></result>
+        <result property="hname" column="hname"></result>
+        <result property="hcontent" column="hcontent"></result>
+        <result property="answer" column="answer"></result>
+        <result property="shcontent" column="shcontent"></result>
+        <result property="grade" column="grade"></result>
+    </resultMap>
+    <select id="showSGrade"  resultMap="selectMapGrade">
+		select sth.hno,sth.sno,sth.cno,h.tno,h.hname,h.hcontent,h.answer,sth.shcontent,sth.grade
+        from stu_shwork sth, shwork h
+        where sth.hno=h.hno and sth.grade >='0'and h.tno=#{tno} and sth.hno=#{hno}
+        order by sth.grade desc
+	</select>
+
+    <!--给学生打分-->
+    <update id="updateGrade" parameterType="Hwork">
+        update stu_hwork set grade=#{grade} where hno=#{hno} and sno=#{sno}
+    </update>
+
+    <!--自动给选择题打分-->
+    <update id="updateSGrade">
+        update stu_shwork set grade=#{grade} where hno=#{hno} and sno=#{sno}
+    </update>
+
+
+    <!--根据sno,hno查作业-->
+    <resultMap id="selectMap3" type="Hwork">
+        <id property="hno" column="hno"></id>
+        <result property="sno" column="sno"></result>
+        <result property="cno" column="cno"></result>
+        <result property="hname" column="hname"></result>
+        <result property="sname" column="sname"></result>
+        <result property="cname" column="cname"></result>
+        <result property="hcontent" column="hcontent"></result>
+        <result property="shcontent" column="shcontent"></result>
+        <result property="htime" column="htime"></result>
+        <result property="grade" column="grade"></result>
+    </resultMap>
+    <select id="selectHworkByShno" resultMap="selectMap3">
+		select sth.hno,sth.sno,sth.cno,h.hcontent,sth.shcontent,h.hname,
+		(select c.cname from class c,student s where c.cno = s.cno and s.sno = #{arg1}) as cname,
+		(select s.sname from student s,stu_hwork sth where s.sno=sth.sno and sth.sno = #{arg1} and sth.hno=#{arg0}) as sname
+		from stu_hwork sth, hwork h where
+		sth.hno=h.hno and sth.shcontent!='null' and sth.grade is null and h.hno=#{arg0} and sno=#{arg1}
+	</select>
+
+    <!--新增作业-->
+    <insert id="insertHwork" parameterType="Thwork">
+        insert into hwork(hno,hname,hcontent,tno,cno,htime)
+    values (#{hno},#{hname},#{hcontent},#{tno},#{clas.cno},null);
+    </insert>
+
+    <!--新增选择题-->
+    <insert id="insertShwork" parameterType="Shwork">
+        insert into shwork(hno,hname,hcontent,selectA,selectB,selectC，selectD，answer,tno,cno,htime,endTime)
+        value (#{hno},#{hname},#{hcontent},#{selectA},#{selectB},#{selectC},#{selectD},#{answer},#{tno},#{clas.cno},null,#{endTime})
+    </insert>
+
+    <!--修改作业-->
+    <update id="updateHwork" parameterType="Thwork">
+        update hwork set hname=#{hname},hcontent=#{hcontent} where hno=#{hno} and tno=#{tno};
+    </update>
+
+    <!--删除作业-->
+    <delete id="deleteHwork" parameterType="Integer">
+        delete from hwork where hno=#{hno};
+    </delete>
+
+    <!--根据cno查sno-->
+    <select id="selectStuByCno" parameterType="java.lang.Integer" resultType="java.lang.Integer">
+        select s.sno from student s,class c where c.cno=s.cno and c.cno=#{cno};
+    </select>
+
+    <!--根据sno查email-->
+    <select id="selectEmail" parameterType="java.lang.Integer" resultType="java.lang.Integer">
+        select email from student where sno=#{sno}
+    </select>
+
+    <!--向学生作业表插入数据-->
+    <insert id="batchInsert" parameterType="java.util.List">
+        insert into stu_hwork(sno,hno,cno) values
+        <foreach collection="list" item="item" separator=",">
+            (#{item.sno},#{item.hno},#{item.cno})
+        </foreach>
+    </insert>
+
+    <!--想学生选择作业表批量插入-->
+    <insert id="SHbatchInsert" parameterType="java.util.List">
+        insert into stu_shwork(sno,hno,cno) values
+        <foreach collection="list" item="item" separator=",">
+            (#{item.sno},#{item.hno},#{item.cno})
+        </foreach>
+    </insert>
+
+    <!--从学生作业表批量删除数据-->
+    <delete id="batchDelete" parameterType="java.util.List">
+        delete from stu_hwork where hno=#{arg0} and sno in
+        <foreach collection="arg1" item="item" open="(" close=")" separator=",">
+            #{item.sno}
+        </foreach>
+    </delete>
+
+    <!--从学生选择作业表批量删除-->
+    <delete id="SHbatchDelete" parameterType="java.util.List">
+        delete from stu_shwork where hno ={arg0} and sno in
+        <foreach collection="arg1" item="item" open="(" close=")" separator=",">
+            #{item.sno}
+        </foreach>
+    </delete>
+
+</mapper>

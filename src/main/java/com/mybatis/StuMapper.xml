@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.StudentDao">
+
+   <!--学生登录-->
+    <select id="login" parameterType="Student" resultType="Student">
+        select * from student where sno=#{sno} and spwd=#{spwd}
+    </select>
+
+    <!--查看个人信息-->
+    <select id="infm" parameterType="Student" resultType="Student">
+        select * from student where sno=#{sno}
+    </select>
+
+    <!-- 查看作业成绩-->
+    <resultMap id="selectMap" type="Hwork">
+        <id property="hno" column="hno"></id>
+        <result property="sno" column="sno"></result>
+        <result property="cno" column="cno"></result>
+        <result property="hname" column="hname"></result>
+        <result property="hcontent" column="hcontent"></result>
+        <result property="shcontent" column="shcontent"></result>
+        <result property="grade" column="grade"></result>
+    </resultMap>
+    <select id="selectGrade"  resultMap="selectMap">
+		select sth.hno,sth.sno,sth.cno,h.hname,h.hcontent,sth.shcontent,sth.grade
+		from stu_hwork sth, hwork h
+		WHERE sth.hno=h.hno  and sth.sno = #{sno}
+	</select>
+
+    <!--查看选择题成绩-->
+    <resultMap id="selectMapShGrade" type="Hworkss">
+        <id property="hno" column="hno"></id>
+        <result property="sno" column="sno"></result>
+        <result property="cno" column="cno"></result>
+        <result property="hname" column="hname"></result>
+        <result property="hcontent" column="hcontent"></result>
+        <result property="answer" column="answer"></result>
+        <result property="shcontent" column="shcontent"></result>
+        <result property="grade" column="grade"></result>
+    </resultMap>
+    <select id="selectSGrade"  resultMap="selectMapShGrade">
+		select sth.hno,sth.sno,sth.cno,h.hname,h.hcontent,h.answer,sth.shcontent,sth.grade
+		from stu_shwork sth, shwork h
+		WHERE sth.hno=h.hno and sth.sno = #{sno}
+	</select>
+
+
+    <!--查看所有新作业-->
+    <resultMap id="selectMap2" type="Hwork">
+        <id property="hno" column="hno"></id>
+        <result property="sno" column="sno"></result>
+        <result property="cno" column="cno"></result>
+        <result property="hcontent" column="hcontent"></result>
+        <result property="shcontent" column="shcontent"></result>
+        <result property="grade" column="grade"></result>
+    </resultMap>
+    <select id="selectHwork"  resultMap="selectMap2">
+		select sth.hno,sth.sno,sth.cno,h.hcontent,sth.shcontent,sth.grade
+		 from
+		stu_hwork sth, hwork h WHERE sth.hno=h.hno and sth.sno=#{sno} and sth.shcontent is null
+	</select>
+
+    <!--查看选择题-->
+    <resultMap id="selectMapSe" type="Hworkss">
+        <id property="hno" column="hno"></id>
+        <result property="sno" column="sno"></result>
+        <result property="cno" column="cno"></result>
+        <result property="tno" column="tno"></result>
+        <result property="hcontent" column="hcontent"></result>
+        <result property="selectA" column="selectA"></result>
+        <result property="selectB" column="selectB"></result>
+        <result property="selectC" column="selectC"></result>
+        <result property="selectD" column="selectD"></result>
+        <result property="shcontent" column="shcontent"></result>
+    </resultMap>
+    <select id="selectShwork" resultMap="selectMapSe">
+        select
+        stu.sno,stu.hno,stu.cno,sh.hcontent,sh.selectA,sh.selectB,sh.selectC,sh.selectD,sh.tno
+        from
+        shwork sh,stu_shwork stu
+        WHERE
+        sh.hno = stu.hno and stu.sno=#{sno} and stu.shcontent is null
+    </select>
+
+
+
+    <!-- 做作业，插入答案-->
+    <update id="insertShContent" parameterType="Hwork">
+        update stu_hwork set shcontent=#{shcontent} where hno=#{hno} and sno=#{sno}
+    </update>
+
+    <!--插入选择题答案-->
+    <update id="insertHworkContent">
+        update stu_shwork set shcontent=#{shcontent} where hno=#{hno} and sno=#{sno}
+    </update>
+
+    <!--根据hno查作业-->
+    <resultMap id="selectMap3" type="Hwork">
+        <id property="hno" column="hno"></id>
+        <result property="sno" column="sno"></result>
+        <result property="hname" column="hname"></result>
+        <result property="hcontent" column="hcontent"></result>
+        <result property="htime" column="htime"></result>
+        <result property="tname" column="tname"></result>
+        <result property="shname" column="shname"></result>
+        <result property="grade" column="grade"></result>
+    </resultMap>
+    <select id="selectByHno" resultMap="selectMap3">
+		select sth.hno,sth.sno,sth.cno,h.hcontent,sth.shcontent,sth.grade,
+		(select t.tname from teacher t,hwork h where t.tno=h.tno and h.hno=#{arg0}) as tname,
+		(select h.hname from hwork h,stu_hwork s where h.hno=s.hno and s.hno=#{arg0} and s.sno=#{arg1}) as hname
+		from
+		stu_hwork sth, hwork h WHERE
+		sth.hno=h.hno and sth.shcontent is null and h.hno=#{arg0} and sth.sno=#{arg1}
+	</select>
+
+    <!--根据hno查选择题-->
+    <resultMap id="selectMapByhno" type="Hworkss">
+        <id property="hno" column="hno"></id>
+        <result property="sno" column="sno"></result>
+        <result property="hname" column="hname"></result>
+        <result property="hcontent" column="hcontent"></result>
+        <result property="htime" column="htime"></result>
+        <result property="tname" column="tname"></result>
+        <result property="selectA" column="selectA"></result>
+        <result property="selectB" column="selectB"></result>
+        <result property="selectC" column="selectC"></result>
+        <result property="selectD" column="selectD"></result>
+        <result property="grade" column="grade"></result>
+    </resultMap>
+    <select id="selectShworkByHno" resultMap="selectMapByhno">
+     select
+     stu.sno,stu.hno,stu.cno,sh.hcontent,sh.selectA,sh.selectB,sh.selectC,sh.selectD,sh.tno,sh.hname,
+    (select t.tname from teacher t,shwork sh where t.tno = sh.tno and sh.hno=#{arg0}) as tname
+     from
+    shwork sh,stu_shwork stu
+     WHERE
+     sh.hno = stu.hno  and stu.shcontent is null and sh.hno=#{arg0} and stu.sno=#{arg1}
+	</select>
+
+    <!--根据作业号查选择题答案-->
+    <select id="selectAnswerByHno" parameterType="Hworkss" resultType="Hworkss">
+        select answer from shwork where hno=#{hno}
+    </select>
+</mapper>

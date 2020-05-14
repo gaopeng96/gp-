@@ -7,18 +7,33 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 	<setting name="logImpl" value="log4j" />
 </settings>
 
+
+
 <typeAliases>
-	<!-- <typeAlias type="com.zxj.pojo.Product" alias="abc"/>  -->	
 
-    <typeAlias type="com.pojo.Employee" alias="Employee"/>
-	<typeAlias type="com.pojo.Department" alias="Department"/>
-
+<!--设置别名-->
+	<typeAlias type="com.pojo.Hwork" alias="Hwork"/>
+	<typeAlias type="com.pojo.Admin" alias="Admin"/>
+	<typeAlias type="com.pojo.Teacher" alias="Teacher"/>
+	<typeAlias type="com.pojo.Student" alias="Student"/>
+	<typeAlias type="com.pojo.Thwork" alias="Thwork"/>
+	<typeAlias type="com.pojo.Notice" alias="Notice"/>
+	<typeAlias type="com.pojo.Class" alias="Class"/>
+	<typeAlias type="com.pojo.Shwork" alias="Shwork" />
+	<typeAlias type="com.pojo.Hworkss" alias="Hworkss" />
 </typeAliases>
+
+
+	<!--分页-->
+<plugins>
+	<plugin interceptor="com.github.pagehelper.PageInterceptor"></plugin>
+</plugins>
 
 <!--映射文件的设置 -->
 <mappers>
-	<mapper resource="com/mybatis/EmpMapper.xml"/>
-	<mapper resource="com/mybatis/DepMapper.xml"/>
+	<mapper resource="com/mybatis/StuMapper.xml"/>
+	<mapper resource="com/mybatis/AdminMapper.xml"/>
+	<mapper resource="com/mybatis/TeaMapper.xml"/>
 </mappers>
 
 </configuration>
