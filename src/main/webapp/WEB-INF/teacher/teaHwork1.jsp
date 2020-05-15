@@ -117,7 +117,7 @@
                                 <td>${item.hcontent}</td>
                                 <td title="${item.htime}">${item.htime}</td>
                                 <td>
-                                    <a class="layui-btn layui-btn-sm layui-btn-normal" title="查看" onclick="execute_open()" href="javascript:;"><i class="layui-icon layui-icon-edit"></i>查看</a>
+                                    <a class="layui-btn layui-btn-sm layui-btn-normal" title="查看" onclick="execute_open('查看作业', 'user/showHworkByHno?hno=${item.hno}', 1000, 550)" href="javascript:;"><i class="layui-icon layui-icon-edit"></i>查看</a>
                                     <a class="layui-btn layui-btn-sm layui-btn-danger" title="删除" onclick="remove('${item.hno}','${item.cno}')" href="javascript:;"><i class="layui-icon layui-icon-delete"></i>删除</a>
                                 </td>
                             </tr>

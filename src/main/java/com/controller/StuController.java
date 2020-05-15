@@ -94,7 +94,8 @@ public class StuController {
     用户登录，判断登录类型
      */
     @RequestMapping("/aa")
-    public String login1(){
+    public String login1(HttpSession session){
+        session.invalidate();
         return "login1";
     }
 
@@ -664,8 +665,15 @@ public class StuController {
         return "forward:/user/selectTeaHwork";
     }
 
-    //显示修改作业
+    //显示作业详情
+    @RequestMapping("/showHworkByHno")
+    public String showHworkBuHno(String hno,Model model){
+        int hno1 = Integer.parseInt(hno);
+        Hwork hwork = teaService.selectHworkByHno(hno1);
+        model.addAttribute("hwork",hwork);
 
+        return "teacher/showHworkByHno";
+    }
 
     //显示批改页面
     @RequestMapping(value = "/showUpdateGrade/{hno}/{sno}")

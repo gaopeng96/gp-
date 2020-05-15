@@ -26,6 +26,12 @@ public interface TeacherDao {
     //根据sno和hno查看作业
     Hwork selectHworkByShno(Integer sno,Integer hno);
 
+    //根据hno查看作业
+    Hwork selectHworkByHno(Integer hno);
+
+    //根据hno查看选择题
+    Shwork selectShworkByHno(Integer hno);
+
     //给学生打分
     int updateGrade(Hwork hwork);
 

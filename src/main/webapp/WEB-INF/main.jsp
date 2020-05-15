@@ -112,18 +112,18 @@
                         <li class="layui-nav-item layui-nav-itemed">
                             <a href="javascript:;">作业管理</a>
                             <dl class="layui-nav-child">
-                                <dd><a href="javascript:;" data-url="/user/selectTeaHwork">已发布作业</a></dd>
-                                <dd><a href="javascript:;" data-url="/user/selectTeaShwork">已发布选择题作业</a></dd>
+                                <dd><a href="javascript:;" data-url="/user/selectTeaHwork">已发布主观题作业</a></dd>
+                                <dd><a href="javascript:;" data-url="/user/selectTeaShwork">已发布客观题作业</a></dd>
                                 <dd><a href="javascript:;" data-url="/user/selectNewHwork">未批改作业</a></dd>
                             </dl>
                         </li>
                         <li class="layui-nav-item layui-nav-itemed">
                             <a href="javascript:;">学生管理</a>
                             <dl class="layui-nav-child">
-                                <dd><a href="javascript:;" data-url="/user/selectGradeByTea">查看成绩</a></dd>
-                                <dd><a href="javascript:;" data-url="/user/selectSGradeByTea">查看选择题成绩</a></dd>
-                                <dd><a href="javascript:;" data-url="/user/selectNotHwork">未提交学生</a></dd>
-                                <dd><a href="javascript:;" data-url="/user/selectNotSHwork">选择题未提交学生</a></dd>
+                                <dd><a href="javascript:;" data-url="/user/selectGradeByTea">主观题成绩</a></dd>
+                                <dd><a href="javascript:;" data-url="/user/selectSGradeByTea">客观题题成绩</a></dd>
+                                <dd><a href="javascript:;" data-url="/user/selectNotHwork">主观题未提交学生</a></dd>
+                                <dd><a href="javascript:;" data-url="/user/selectNotSHwork">客观题未提交学生</a></dd>
                             </dl>
                         </li>
                         <li class="layui-nav-item layui-nav-itemed">
@@ -140,15 +140,15 @@
                     <li class="layui-nav-item layui-nav-itemed">
                         <a href="javascript:;">作业管理</a>
                         <dl class="layui-nav-child">
-                            <dd><a href="javascript:;" data-url="/user/searchHwork">查看新作业</a></dd>
-                            <dd><a href="javascript:;" data-url="/user/searchShwork">查看选择题</a></dd>
+                            <dd><a href="javascript:;" data-url="/user/searchHwork">主观题作业</a></dd>
+                            <dd><a href="javascript:;" data-url="/user/searchShwork">客观题作业</a></dd>
                         </dl>
                     </li>
                     <li class="layui-nav-item layui-nav-itemed">
                         <a href="javascript:;">成绩管理</a>
                         <dl class="layui-nav-child">
-                            <dd><a href="javascript:;" data-url="/user/searchGrade">查看成绩</a></dd>
-                            <dd><a href="javascript:;" data-url="/user/selectSGrade">查看选择题成绩</a></dd>
+                            <dd><a href="javascript:;" data-url="/user/searchGrade">主观题作业成绩</a></dd>
+                            <dd><a href="javascript:;" data-url="/user/selectSGrade">客观题题成绩</a></dd>
                         </dl>
                     </li>
                     <li class="layui-nav-item layui-nav-itemed">

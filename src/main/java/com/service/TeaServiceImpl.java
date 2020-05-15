@@ -60,6 +60,12 @@ public class TeaServiceImpl implements TeaService{
         return teacherDao.selectHworkByShno(hno,sno);
     }
 
+    //根据hno查作业
+    @Override
+    public Hwork selectHworkByHno(Integer hno) {
+        return teacherDao.selectHworkByHno(hno);
+    }
+
     //新增作业
     @Override
     public int insertHwork(Thwork thwork) {

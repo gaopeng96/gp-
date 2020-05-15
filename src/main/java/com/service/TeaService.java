@@ -25,6 +25,9 @@ public interface TeaService {
     //根据sno和hno查看作业
     Hwork selectHworkByShno(Integer hno,Integer sno);
 
+    //根据hno查作业
+    Hwork selectHworkByHno(Integer hno);
+
     //新增作业
     int insertHwork(Thwork thwork);
 

@@ -174,6 +174,30 @@
 		sth.hno=h.hno and sth.shcontent!='null' and sth.grade is null and h.hno=#{arg0} and sno=#{arg1}
 	</select>
 
+    <!--根据hno查看作业-->
+    <resultMap id="selectHworkByhno" type="Hwork">
+        <id property="hno" column="hno"></id>
+        <result property="cno" column="cno"></result>
+        <result property="hname" column="hname"></result>
+        <result property="hcontent" column="hcontent"></result>
+        <result property="htime" column="htime"></result>
+    </resultMap>
+    <select id="selectHworkByHno" resultMap="selectHworkByhno">
+	select *from hwork where hno=#{hno}
+	</select>
+
+    <!--根据hno查看选择题-->
+    <resultMap id="selectSHworkByhno" type="Shwork">
+        <id property="hno" column="hno"></id>
+        <result property="cno" column="cno"></result>
+        <result property="hname" column="hname"></result>
+        <result property="hcontent" column="hcontent"></result>
+        <result property="htime" column="htime"></result>
+    </resultMap>
+    <select id="selectShworkByHno" resultMap="selectSHworkByhno">
+	select *from hwork where hno=#{hno}
+	</select>
+
     <!--新增作业-->
     <insert id="insertHwork" parameterType="Thwork">
         insert into hwork(hno,hname,hcontent,tno,cno,htime)

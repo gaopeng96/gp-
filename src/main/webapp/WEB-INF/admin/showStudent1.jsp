@@ -137,7 +137,7 @@
                         <c:forEach var = "index" begin="1" end="${pageInfo.pages}">
                             <li class="active"
                                     <c:if test="${index==pageInfo.pageNum}"></c:if>>
-                                <a href="javascript:/user/selectStudent?pageNum=${index}">${index}</a>
+                                <a href="/user/selectStudent?pageNum=${index}">${index}</a>
                             </li>
                         </c:forEach>
                         <c:choose>

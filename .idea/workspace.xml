@@ -6,581 +6,22 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="362c3bc0-e44c-4a44-af9b-a8ccb58a47c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Resource/mail.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/MybatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/StuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/AdminDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/StudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/TeacherDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybatis/AdminMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybatis/StuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybatis/TeaMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/Class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/Hwork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/Hworkss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/Shwork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/Thwork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/AdminServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/StuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/StuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/TeaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/TeaServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/AdminConsole.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/addClass.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/addClass1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/addNotice.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/addNotice1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/addStudent.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/addStudent1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/addTeacher.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/addTeacher1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/adminHead.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/showClass.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/showClass1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/showNotice.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/showNotice1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/showStudent.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/showStudent1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/showTeacher.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/showTeacher1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/showUpdateNotice.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/updateClass.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/updateClass1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/updateNotice.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/updateNotice1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/updateStudent.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/updateStudent1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/updateTeacher.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/updateTeacher1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ceshi.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/left.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/login1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/stu/answerHwork.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/stu/answerShwork.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/stu/hworkGrade.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/stu/hworkGrade1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/stu/newHwork.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/stu/newHwork1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/stu/newShwork.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/stu/shworkGrade1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/stu/stuHead.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/stu/stuInformation.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/stu/stuInformation1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/stu/updateStuIn.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/stu/updateStuIn1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/stu/updateStuPwd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/stu/updateStuPwd1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/stuConsole.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/teaConsole.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/addHwork.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/addHwork1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/addSHwork.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/searchGradeBytea.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/searchGradeBytea1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/searchSGradeBytea.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/showGrade.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/showGrade1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/showSGrade.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/teaHead.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/teaHwork.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/teaHwork1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/teaInformation.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/teaInformation1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/teaNewHwork.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/teaNewHwork1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/teaNotHwork.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/teaNotHwork1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/teaNotSHwork.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/teaShwork.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/updateGrade.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/updateGrade1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/updateTeaIn.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/updateTeaIn1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/updateTeaPwd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/updateTeaPwd1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/top.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/aiwrap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/logins.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/memphis-mini.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/pintuer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/font/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/transfer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/cropper/cropper.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/cropper/cropper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/cropper/croppers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/jquery.tinymce.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/langs/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/langs/zh_CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/advlist/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/advlist/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/anchor/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/anchor/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/autolink/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/autolink/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/autoresize/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/autoresize/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/autosave/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/autosave/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/bbcode/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/bbcode/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/charmap/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/charmap/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/code/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/code/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/codesample/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/codesample/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/colorpicker/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/colorpicker/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/contextmenu/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/contextmenu/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/directionality/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/directionality/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/emoticons/js/emojis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/emoticons/js/emojis.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/emoticons/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/emoticons/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/fullpage/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/fullpage/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/fullscreen/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/fullscreen/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/help/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/help/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/hr/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/hr/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/image/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/image/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/imagetools/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/imagetools/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/importcss/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/importcss/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/indent2em/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/indent2em/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/insertdatetime/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/insertdatetime/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/legacyoutput/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/legacyoutput/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/link/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/link/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/lists/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/lists/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/media/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/media/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/nonbreaking/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/nonbreaking/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/noneditable/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/noneditable/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/pagebreak/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/pagebreak/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/paste/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/paste/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/preview/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/preview/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/print/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/print/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/quickbars/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/quickbars/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/save/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/save/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/searchreplace/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/searchreplace/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/spellchecker/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/spellchecker/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/tabfocus/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/tabfocus/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/table/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/table/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/template/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/template/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/textcolor/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/textcolor/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/textpattern/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/textpattern/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/toc/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/toc/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/visualblocks/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/visualblocks/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/visualchars/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/visualchars/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/wordcount/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/plugins/wordcount/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/content/dark/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/content/dark/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/content/dark/content.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/content/default/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/content/default/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/content/default/content.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/content/document/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/content/document/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/content/document/content.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/content/writer/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/content/writer/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/content/writer/content.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide-dark/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide-dark/content.inline.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide-dark/content.inline.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide-dark/content.inline.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide-dark/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide-dark/content.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide-dark/content.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide-dark/content.mobile.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide-dark/content.mobile.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide-dark/fonts/tinymce-mobile.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide-dark/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide-dark/skin.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide-dark/skin.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide-dark/skin.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide-dark/skin.mobile.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide-dark/skin.mobile.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide/content.inline.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide/content.inline.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide/content.inline.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide/content.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide/content.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide/content.mobile.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide/content.mobile.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide/fonts/tinymce-mobile.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide/skin.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide/skin.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide/skin.min1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide/skin.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide/skin.mobile.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/skins/ui/oxide/skin.mobile.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/themes/mobile/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/themes/mobile/theme.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/themes/silver/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/themes/silver/theme.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/tinymce.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.bak/tinymce.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/jquery.tinymce.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/langs/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/langs/zh_CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/advlist/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/advlist/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/anchor/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/anchor/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/autolink/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/autolink/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/autoresize/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/autoresize/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/autosave/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/autosave/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/bbcode/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/bbcode/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/charmap/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/charmap/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/code/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/code/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/codesample/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/codesample/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/colorpicker/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/colorpicker/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/contextmenu/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/contextmenu/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/directionality/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/directionality/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/emoticons/js/emojis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/emoticons/js/emojis.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/emoticons/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/emoticons/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/fullpage/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/fullpage/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/fullscreen/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/fullscreen/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/help/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/help/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/hr/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/hr/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/image/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/image/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/imagetools/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/imagetools/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/importcss/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/importcss/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/indent2em/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/indent2em/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/insertdatetime/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/insertdatetime/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/legacyoutput/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/legacyoutput/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/link/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/link/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/lists/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/lists/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/media/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/media/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/nonbreaking/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/nonbreaking/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/noneditable/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/noneditable/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/pagebreak/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/pagebreak/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/paste/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/paste/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/preview/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/preview/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/print/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/print/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/quickbars/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/quickbars/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/save/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/save/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/searchreplace/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/searchreplace/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/spellchecker/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/spellchecker/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/tabfocus/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/tabfocus/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/table/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/table/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/template/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/template/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/textcolor/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/textcolor/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/textpattern/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/textpattern/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/toc/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/toc/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/visualblocks/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/visualblocks/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/visualchars/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/visualchars/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/wordcount/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/plugins/wordcount/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/content/dark/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/content/dark/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/content/dark/content.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/content/default/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/content/default/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/content/default/content.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/content/document/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/content/document/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/content/document/content.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/content/writer/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/content/writer/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/content/writer/content.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide-dark/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide-dark/content.inline.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide-dark/content.inline.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide-dark/content.inline.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide-dark/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide-dark/content.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide-dark/content.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide-dark/content.mobile.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide-dark/content.mobile.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide-dark/fonts/tinymce-mobile.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide-dark/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide-dark/skin.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide-dark/skin.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide-dark/skin.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide-dark/skin.mobile.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide-dark/skin.mobile.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide/content.inline.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide/content.inline.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide/content.inline.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide/content.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide/content.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide/content.mobile.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide/content.mobile.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide/fonts/tinymce-mobile.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide/skin.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide/skin.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide/skin.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide/skin.mobile.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/skins/ui/oxide/skin.mobile.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/themes/mobile/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/themes/mobile/theme.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/themes/silver/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/themes/silver/theme.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/tinymce.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui_exts/tinymce/tinymce/tinymce.min.js" afterDir="false" />
+    <list default="true" id="362c3bc0-e44c-4a44-af9b-a8ccb58a47c9" name="Default Changelist" comment="毕设提交">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/showHworkByHno.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Resource/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Resource/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Resource/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Resource/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Resource/springmvc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Resource/springmvc-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/DepController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/testController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/testController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/DepartmentDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/EmployeeDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybatis/DepMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybatis/EmpMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pojo/Department.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pojo/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pojo/Notice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pojo/Notice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/DepService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/DepServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/EmpService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/EmpServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/controller/DepController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/controller/testController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/controller/testController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dao/DepartmentDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dao/EmployeeDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mybatis/DepMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mybatis/EmpMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pojo/Department.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pojo/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pojo/Notice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pojo/Notice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/service/DepService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/service/DepServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/service/EmpService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/service/EmpServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/StuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/StuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/TeacherDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dao/TeacherDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybatis/TeaMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mybatis/TeaMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/TeaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/TeaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/TeaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/TeaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/showStudent1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/showStudent1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/login1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/login1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/teaHwork1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/teaHwork1.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springmvc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springmvc-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/grproject.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/grproject.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/grproject/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/grproject/WEB-INF/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/grproject/WEB-INF/classes/com/controller/DepController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/grproject/WEB-INF/classes/com/controller/testController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/grproject/WEB-INF/classes/com/controller/testController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/grproject/WEB-INF/classes/com/dao/DepartmentDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/grproject/WEB-INF/classes/com/dao/EmployeeDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/grproject/WEB-INF/classes/com/mybatis/DepMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/grproject/WEB-INF/classes/com/mybatis/EmpMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/grproject/WEB-INF/classes/com/pojo/Department.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/grproject/WEB-INF/classes/com/pojo/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/grproject/WEB-INF/classes/com/pojo/Notice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/grproject/WEB-INF/classes/com/pojo/Notice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/grproject/WEB-INF/classes/com/service/DepService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/grproject/WEB-INF/classes/com/service/DepServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/grproject/WEB-INF/classes/com/service/EmpService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/grproject/WEB-INF/classes/com/service/EmpServiceImpl.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/grproject/WEB-INF/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/grproject/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/grproject/WEB-INF/classes/springmvc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/grproject/WEB-INF/classes/springmvc-config.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -608,7 +49,7 @@
     <session id="1315322912">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="60" />
+          <entry key="project.closed" value="61" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.103" value="1" />
@@ -622,6 +63,7 @@
           <entry key="project.open.time.5" value="11" />
           <entry key="project.open.time.52" value="1" />
           <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.58" value="2" />
           <entry key="project.open.time.6" value="6" />
           <entry key="project.open.time.62" value="1" />
@@ -639,39 +81,39 @@
           <entry key="project.open.time.9" value="3" />
           <entry key="project.open.time.93" value="1" />
           <entry key="project.open.time.96" value="1" />
-          <entry key="project.opened" value="62" />
+          <entry key="project.opened" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="9" />
-          <entry key="css" value="18" />
+          <entry key="css" value="21" />
           <entry key="dtd" value="1" />
           <entry key="git" value="1" />
           <entry key="html" value="1" />
-          <entry key="java" value="423" />
-          <entry key="js" value="22" />
-          <entry key="jsp" value="549" />
+          <entry key="java" value="428" />
+          <entry key="js" value="23" />
+          <entry key="jsp" value="567" />
           <entry key="png" value="1" />
           <entry key="properties" value="3" />
           <entry key="rnc" value="3" />
-          <entry key="xml" value="164" />
+          <entry key="xml" value="175" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="9" />
-          <entry key="CSS" value="18" />
+          <entry key="CSS" value="21" />
           <entry key="DTD" value="1" />
           <entry key="HTML" value="1" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="423" />
-          <entry key="JSP" value="549" />
-          <entry key="JavaScript" value="22" />
+          <entry key="JAVA" value="428" />
+          <entry key="JSP" value="567" />
+          <entry key="JavaScript" value="23" />
           <entry key="Properties" value="3" />
           <entry key="RNG Compact" value="3" />
           <entry key="UNKNOWN" value="1" />
-          <entry key="XML" value="164" />
+          <entry key="XML" value="175" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -680,11 +122,12 @@
           <entry key="css" value="247" />
           <entry key="dummy" value="1" />
           <entry key="html" value="1" />
-          <entry key="java" value="29151" />
+          <entry key="java" value="29499" />
           <entry key="js" value="361" />
-          <entry key="jsp" value="11590" />
+          <entry key="jsp" value="11754" />
           <entry key="properties" value="15" />
-          <entry key="xml" value="6657" />
+          <entry key="txt" value="4" />
+          <entry key="xml" value="6745" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -692,13 +135,13 @@
           <entry key="CLASS" value="24" />
           <entry key="CSS" value="247" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="29151" />
-          <entry key="JSP" value="11590" />
+          <entry key="JAVA" value="29499" />
+          <entry key="JSP" value="11754" />
           <entry key="JavaScript" value="361" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="Properties" value="15" />
           <entry key="SQL" value="51" />
-          <entry key="XML" value="6606" />
+          <entry key="XML" value="6694" />
         </counts>
       </usages-collector>
     </session>
@@ -708,25 +151,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/StuController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9396">
-              <caret line="380" selection-start-line="380" selection-end-line="380" />
+            <state relative-caret-position="175">
+              <caret line="391" column="28" lean-forward="true" selection-start-line="391" selection-start-column="28" selection-end-line="391" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1482#1483#0" expanded="true" />
                 <element signature="e#1512#1513#0" expanded="true" />
+                <element signature="e#1519#2814#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/TeacherDao.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/login1.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="702">
+              <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -734,38 +178,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/stu/answerShwork.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2214">
+            <state relative-caret-position="16">
               <caret line="82" column="14" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/Notice.java">
+        <entry file="file://$PROJECT_DIR$/src/main/Resource/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/stuConsole.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1890">
-              <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/teaShwork.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3132">
-              <caret line="116" column="52" selection-start-line="116" selection-start-column="52" selection-end-line="116" selection-end-column="52" />
+            <state relative-caret-position="108">
+              <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -773,17 +196,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/teaHwork1.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2295">
-              <caret line="85" column="62" selection-start-line="85" selection-start-column="62" selection-end-line="85" selection-end-column="62" />
+            <state relative-caret-position="325">
+              <caret line="123" column="36" lean-forward="true" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/showTeacher1.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/teaShwork.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3051">
-              <caret line="113" column="36" selection-start-line="113" selection-start-column="36" selection-end-line="113" selection-end-column="251" />
+            <state relative-caret-position="1717">
+              <caret line="116" column="52" selection-start-line="116" selection-start-column="52" selection-end-line="116" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/teaNewHwork1.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="111" column="36" selection-start-line="111" selection-start-column="36" selection-end-line="111" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/main.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-35">
+              <caret line="161" selection-start-line="161" selection-end-line="161" />
+              <folding>
+                <element signature="n#style#0;n#iframe#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -791,17 +235,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/showClass1.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="34" selection-start-line="34" selection-end-line="38" selection-end-column="10" />
+            <state relative-caret-position="179">
+              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -840,6 +275,10 @@
       <find>selectHworkByShno</find>
       <find>insertHwork</find>
       <find>batchInsert</find>
+      <find>dis</find>
+      <find>disabled</find>
+      <find>active</find>
+      <find>login</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -848,7 +287,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/showClass1.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/searchGradeBytea1.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/stu/newHwork1.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/admin.js" />
@@ -861,8 +299,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/pojo/Hwork.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/teaNewHwork1.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/addHwork1.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/login1.jsp" />
-        <option value="$PROJECT_DIR$/src/main/Resource/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/stu/answerHwork.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/dao/StudentDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/service/StuService.java" />
@@ -881,24 +317,27 @@
         <option value="$PROJECT_DIR$/src/main/java/com/service/AdminService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/service/AdminServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/updateGrade1.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dao/TeacherDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mybatis/TeaMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/service/TeaService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/service/TeaServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pojo/Shwork.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/addSHwork.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/controller/StuController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ceshi.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/main.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/showNotice1.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/showTeacher1.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/updateTeacher1.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/teaHwork1.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/showStudent1.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/teaShwork.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/mybatis/StuMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/stu/answerShwork.jsp" />
+        <option value="$PROJECT_DIR$/src/main/Resource/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/showStudent1.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/login1.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/TeaService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/TeaServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/teaHwork1.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/showHworkByHno.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/TeacherDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mybatis/TeaMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/StuController.java" />
       </list>
     </option>
   </component>
@@ -1021,6 +460,33 @@
               <item name="grproject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="Resource" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1029,6 +495,58 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="layui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="layui" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="stu" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1052,21 +570,21 @@
     <key name="OPEN_URL_DIALOG">
       <recent name="https://github.com/CrisKui/WangXuekuiStudentSports.git" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\ideaProjects\grproject\src\main\webapp\WEB-INF\teacher" />
+      <recent name="F:\ideaProjects\grproject\src\main\webapp\WEB-INF" />
+      <recent name="F:\ideaProjects\grproject\src\main\webapp\WEB-INF\stu" />
+      <recent name="F:\ideaProjects\grproject\src\main\webapp\WEB-INF\admin" />
+      <recent name="F:\ideaProjects\grproject\src\main\webapp\js" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.controller" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\ideaProjects\grproject\src\main\webapp\js" />
       <recent name="F:\ideaProjects\grproject\src\main\webapp\WEB-INF" />
       <recent name="F:\ideaProjects\grproject\src\main\webapp" />
       <recent name="F:\ideaProjects\grproject\src\main\webapp\WEB-INF\student" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.controller" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\ideaProjects\grproject\src\main\webapp\WEB-INF" />
-      <recent name="F:\ideaProjects\grproject\src\main\webapp\WEB-INF\teacher" />
-      <recent name="F:\ideaProjects\grproject\src\main\webapp\WEB-INF\stu" />
-      <recent name="F:\ideaProjects\grproject\src\main\webapp\WEB-INF\admin" />
-      <recent name="F:\ideaProjects\grproject\src\main\webapp\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1642,8 +1160,17 @@
       <workItem from="1589348061187" duration="12888000" />
       <workItem from="1589442088877" duration="2508000" />
       <workItem from="1589454344554" duration="2916000" />
-      <workItem from="1589466777550" duration="439000" />
+      <workItem from="1589466777550" duration="2508000" />
+      <workItem from="1589518505233" duration="17334000" />
     </task>
+    <task id="LOCAL-00001" summary="毕设提交">
+      <created>1589468831384</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589468831384</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1664,7 +1191,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="537234000" />
+    <option name="totallyTimeSpent" value="556581000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1679,7 +1206,7 @@
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.19224924" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.23784195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -1687,16 +1214,16 @@
       <window_info x="514" y="211" width="331" height="305" id="Favorites" order="5" sideWeight="0.5008183" side_tool="true" type="WINDOWED" weight="0.25151977" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.38688526" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.82806325" weight="0.04194631" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.82806325" visible="true" weight="0.040983606" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.7354409" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.7431611" weight="0.114754096" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.3295082" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.15409836" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.17193677" side_tool="true" weight="0.3275194" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.25683892" side_tool="true" weight="0.6819672" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.2529118" />
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.49918166" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3295082" />
@@ -1747,6 +1274,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="毕设提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="毕设提交" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -1770,19 +1303,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/controller/StuController.java</url>
-          <line>572</line>
+          <line>573</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/controller/StuController.java</url>
-          <line>103</line>
+          <line>104</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/controller/StuController.java</url>
-          <line>1114</line>
+          <line>1122</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
@@ -1866,13 +1399,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/controller/StuController.java</url>
-          <line>604</line>
+          <line>605</line>
           <properties />
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/controller/StuController.java</url>
-          <line>634</line>
+          <line>635</line>
           <properties />
           <option name="timeStamp" value="43" />
         </line-breakpoint>
@@ -1884,7 +1417,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/controller/StuController.java</url>
-          <line>871</line>
+          <line>879</line>
           <properties class="com.controller.StuController" method="insertStuCheck">
             <option name="EMULATED" value="true" />
           </properties>
@@ -1892,7 +1425,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/controller/StuController.java</url>
-          <line>213</line>
+          <line>214</line>
           <properties class="com.controller.StuController" method="stuInfm">
             <option name="EMULATED" value="true" />
           </properties>
@@ -1900,7 +1433,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/controller/StuController.java</url>
-          <line>102</line>
+          <line>103</line>
           <properties class="com.controller.StuController" method="login">
             <option name="EMULATED" value="true" />
           </properties>
@@ -1908,7 +1441,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/controller/StuController.java</url>
-          <line>1241</line>
+          <line>1249</line>
           <properties class="com.controller.StuController" method="showUpdateTeacher">
             <option name="EMULATED" value="true" />
           </properties>
@@ -1916,7 +1449,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/controller/StuController.java</url>
-          <line>1162</line>
+          <line>1170</line>
           <properties class="com.controller.StuController" method="updateStudent">
             <option name="EMULATED" value="true" />
           </properties>
@@ -1924,7 +1457,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/controller/StuController.java</url>
-          <line>1054</line>
+          <line>1062</line>
           <properties class="com.controller.StuController" method="selectClass">
             <option name="EMULATED" value="true" />
           </properties>
@@ -1932,7 +1465,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/controller/StuController.java</url>
-          <line>851</line>
+          <line>859</line>
           <properties class="com.controller.StuController" method="insertTeaCheck">
             <option name="EMULATED" value="true" />
           </properties>
@@ -1947,76 +1480,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2403">
-          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/stu/answerHwork.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1701">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/StudentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/StuService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/StuServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/stu/newShwork.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1249">
-          <caret line="100" column="41" lean-forward="true" selection-start-line="100" selection-start-column="41" selection-end-line="100" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/searchGradeBytea1.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-945">
-          <caret line="40" selection-start-line="40" selection-end-line="43" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/showGrade1.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/searchSGradeBytea.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="115" column="68" selection-start-line="115" selection-start-column="51" selection-end-line="115" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/showSGrade.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1904">
@@ -2076,13 +1539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/teaNewHwork1.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1107">
-          <caret line="111" column="36" lean-forward="true" selection-start-line="111" selection-start-column="36" selection-end-line="111" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/Hworkss.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -2093,24 +1549,13 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/laydate.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/updateGrade1.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/addHwork1.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1216">
           <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/Shwork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="n#script#4;n#head#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2128,45 +1573,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Resource/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/TeaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/TeaServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/showNotice1.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="113" column="54" lean-forward="true" selection-start-line="113" selection-start-column="54" selection-end-line="113" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/updateTeacher1.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
           <caret line="209" column="52" lean-forward="true" selection-start-line="209" selection-start-column="52" selection-end-line="209" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding>
+            <element signature="n#script#4;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#6;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2174,34 +1588,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="162" column="26" selection-start-line="162" selection-start-column="26" selection-end-line="162" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mybatis/TeaMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="207" lean-forward="true" selection-start-line="207" selection-end-line="207" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/teaNotSHwork.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1175">
-          <caret line="143" column="39" selection-start-line="143" selection-start-column="30" selection-end-line="143" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Resource/springmvc-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="38" column="55" lean-forward="true" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Resource/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1647">
-          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+          <folding>
+            <element signature="n#script#2;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2212,36 +1602,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/showStudent1.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3159">
-          <caret line="117" column="16" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/AdminDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
           <caret line="33" column="25" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/StuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9396">
-          <caret line="380" selection-start-line="380" selection-end-line="380" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1482#1483#0" expanded="true" />
-            <element signature="e#1512#1513#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/stu/answerShwork.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2214">
-          <caret line="82" column="14" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -2262,31 +1626,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/teaShwork.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3132">
-          <caret line="116" column="52" selection-start-line="116" selection-start-column="52" selection-end-line="116" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/teaHwork1.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2295">
-          <caret line="85" column="62" selection-start-line="85" selection-start-column="62" selection-end-line="85" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/showTeacher1.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3051">
           <caret line="113" column="36" selection-start-line="113" selection-start-column="36" selection-end-line="113" selection-end-column="251" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -2297,10 +1640,220 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/TeacherDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <caret line="200" column="25" lean-forward="true" selection-start-line="200" selection-start-column="25" selection-end-line="200" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/addStudent1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="184" column="15" selection-start-line="184" selection-start-column="15" selection-end-line="184" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/lib/layui/css/layui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="210" column="86" lean-forward="true" selection-start-line="210" selection-start-column="86" selection-end-line="210" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/showStudent1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="152" column="25" lean-forward="true" selection-start-line="152" selection-start-column="25" selection-end-line="152" selection-end-column="25" />
+          <folding>
+            <element signature="n#table#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/TeaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/TeaServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="e#1610#1611#0" expanded="true" />
+            <element signature="e#1637#1638#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/updateGrade1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-118">
+          <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/showHworkByHno.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1141">
+          <caret line="76" column="49" selection-start-line="76" selection-start-column="49" selection-end-line="76" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/Shwork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mybatis/TeaMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="198" column="13" lean-forward="true" selection-start-line="198" selection-start-column="13" selection-end-line="198" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/showNotice1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="115" column="178" lean-forward="true" selection-start-line="115" selection-start-column="120" selection-end-line="115" selection-end-column="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/TeacherDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Resource/springmvc-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Resource/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Resource/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/login1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/teaHwork1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="123" column="36" lean-forward="true" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/teaNotSHwork.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2527">
+          <caret line="143" column="39" selection-start-line="143" selection-start-column="30" selection-end-line="143" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/teaShwork.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1717">
+          <caret line="116" column="52" selection-start-line="116" selection-start-column="52" selection-end-line="116" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/teacher/teaNewHwork1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="111" column="36" selection-start-line="111" selection-start-column="36" selection-end-line="111" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-35">
+          <caret line="161" selection-start-line="161" selection-end-line="161" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/stu/answerShwork.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="82" column="14" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/StuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="391" column="28" lean-forward="true" selection-start-line="391" selection-start-column="28" selection-end-line="391" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1482#1483#0" expanded="true" />
+            <element signature="e#1512#1513#0" expanded="true" />
+            <element signature="e#1519#2814#0" />
+          </folding>
         </state>
       </provider>
     </entry>
